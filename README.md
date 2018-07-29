@@ -23,15 +23,21 @@ python -m unittest discover tests -v
 
 - Question 1: Flattern JSON
 
-    Time complexity: O(N * M) (N: number of elements, M: number of nestest elements)
+    Time complexity: O(NM) (N: number of elements, M: number of nestest elements)
+
+    Space complexity: 0(N) (N: number of elements)
 
 - Question 2: Data Store and Load
 
-    Time complexity: O(N^2)
+    Time complexity: O(NM) (N: number of items, M: number of key value pairs)
+
+    Space complexity: O(N) (N: number of items)
 
 - Question 3: Find optimal path
 
-    Time complexity: N * log(N)
+    Time complexity: O(EV) (E: number of edges, V: number of vertices)
+
+    Space complexity: O(V) (V: number of vertices)
 
 - Note on Question 03
 

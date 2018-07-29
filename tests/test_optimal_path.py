@@ -1,9 +1,9 @@
 import unittest
 
-from app.optimal_graph import find_optimal_path
+from app.optimal_path import find_optimal_path
 
 
-class UnitTests(unittest.TestCase):
+class TestOptimalPath(unittest.TestCase):
 
     def test_optimal_path(self):
         edges = [['A', 'B'], ['B', 'C'], ['A', 'C']]
